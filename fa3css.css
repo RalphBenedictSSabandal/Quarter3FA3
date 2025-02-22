@@ -1,0 +1,40 @@
+body{
+    background-image: url('fa3images/lakersbg.jpg');
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    border: solid white 10px;
+}
+
+.name{
+    font-size: 40px;
+}
+
+p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.column {
+    float: left;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+  
+.left, .right {
+    width: 40%;
+}
+  
+.middle {
+    width: 20%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
